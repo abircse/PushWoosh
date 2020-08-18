@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">PushWoosh</string>
 
-    <string name="fcm_sender_id">175992091576</string>
+    <string name="fcm_sender_id">YOUR FIREBASE SENDER ID</string>
+    <string name="pushwooshapp_id">YOUR PUSHWOOSH APP ID</string>
 
 </resources>

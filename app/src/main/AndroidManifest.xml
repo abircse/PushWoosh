@@ -18,19 +18,23 @@
             </intent-filter>
         </activity>
 
-<!--        // Mendatory meta data-->
-<!--        // Here app id is pushwoosh app id-->
-<!--        // sender id is firebase cloud messegin sender id-->
-        <meta-data android:name="com.pushwoosh.appid" android:value="D18B2-3AD5E" />
-        <meta-data android:name="com.pushwoosh.senderid" android:value="@string/fcm_sender_id" />
+        <!--        // Mandatory meta data-->
+        <!--        // Here app id is pushwoosh app id-->
+        <!--        // sender id is firebase cloud messaging sender id-->
+        <meta-data
+            android:name="com.pushwoosh.appid"
+            android:value="@string/pushwooshapp_id" />
+        <meta-data
+            android:name="com.pushwoosh.senderid"
+            android:value="@string/fcm_sender_id" />
 
-<!--        // Other Tag for icon-->
-<!--        <meta-data-->
-<!--            android:name="com.pushwoosh.notification_icon"-->
-<!--            android:value="@drawable/notification_small_icon" />-->
-<!--        <meta-data-->
-<!--            android:name="com.pushwoosh.notification_icon_color"-->
-<!--            android:value="@color/notification_icon_color" />-->
+        <!--        // Other Tag for icon-->
+        <!--        <meta-data-->
+        <!--            android:name="com.pushwoosh.notification_icon"-->
+        <!--            android:value="@drawable/notification_small_icon" />-->
+        <!--        <meta-data-->
+        <!--            android:name="com.pushwoosh.notification_icon_color"-->
+        <!--            android:value="@color/notification_icon_color" />-->
     </application>
 
 </manifest>
