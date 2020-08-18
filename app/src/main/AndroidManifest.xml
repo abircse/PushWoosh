@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.coxtuneslab.pushwoosh">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+<!--        // Mendatory meta data-->
+<!--        // Here app id is pushwoosh app id-->
+<!--        // sender id is firebase cloud messegin sender id-->
+        <meta-data android:name="com.pushwoosh.appid" android:value="D18B2-3AD5E" />
+        <meta-data android:name="com.pushwoosh.senderid" android:value="@string/fcm_sender_id" />
+
+<!--        // Other Tag for icon-->
+<!--        <meta-data-->
+<!--            android:name="com.pushwoosh.notification_icon"-->
+<!--            android:value="@drawable/notification_small_icon" />-->
+<!--        <meta-data-->
+<!--            android:name="com.pushwoosh.notification_icon_color"-->
+<!--            android:value="@color/notification_icon_color" />-->
+    </application>
+
+</manifest>
